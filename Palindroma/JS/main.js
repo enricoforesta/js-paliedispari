@@ -19,13 +19,27 @@ function parolaInvertita(parolaInput) {
     }
     console.log({ arrayInputInvertito })
 
+    // for (let i = 0; i < parolaInput.length; i++) {
+    //     if (arrayInput[i] === arrayInputInvertito[i]) {
+    //         console.log("è palindroma")
+    //     } else {
+    //         console.log("non è palindroma")
+    //     }
+    // }
+    let palindroma = false;
+
     for (let i = 0; i < parolaInput.length; i++) {
         if (arrayInput[i] === arrayInputInvertito[i]) {
-            console.log("è palindroma")
-        } else {
-            console.log("non è palindroma")
+            palindroma = true;
         }
     }
+    if(palindroma === true){
+        console.log("La parola è palindroma")
+    }
+    else{
+        console.log("La parola non è palindroma")
+    }
+
 }
 
 
