@@ -22,3 +22,31 @@ Creare una funzione per capire se la parola inserita è palindroma.
     
 --ALTRIMENTI 
     la parola non è palindroma
+
+
+
+# Pari e Dispari
+L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+
+Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+
+Sommiamo i due numeri
+
+Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+
+Dichiariamo chi ha vinto.
+
+
+# Logica 
+
+1. Chiedere all utente di scegliere pari o dispari. 
+
+2. Chiedere all utente un numero da scegliere da 1 a 5.
+
+3. Creo una funzione(numero minimo, numero massimo) che genera un numero casuale
+
+4. Sommiamo i Numeri e stabiliamo se è pari o dispari con "%" 
+
+5. In Base al risulato e a ciò che ha scelto l utente, dichiariamo chi ha vinto. 
+
+
