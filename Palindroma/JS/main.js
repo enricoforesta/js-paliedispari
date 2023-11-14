@@ -8,7 +8,6 @@ function parolaInvertita(parolaInput) {
 
     for (let i = 0; i < parolaInput.length; i++) {
         arrayInput.push(parolaInput[i])
-        return arrayInput;
     }
 
     console.log({ arrayInput });
@@ -17,7 +16,6 @@ function parolaInvertita(parolaInput) {
     const arrayInputInvertito = [];
     for (let i = parolaInput.length - 1; i >= 0; i--) {
         arrayInputInvertito.push(parolaInput[i])
-        return arrayInputInvertito;
     }
     console.log({ arrayInputInvertito })
 
@@ -36,4 +34,4 @@ function parolaInvertita(parolaInput) {
 
 const parolaInput = prompt("inserisci una parola");
 
-parolaInvertita();
+parolaInvertita(parolaInput);
