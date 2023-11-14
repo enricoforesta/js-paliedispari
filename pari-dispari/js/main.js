@@ -45,10 +45,9 @@ console.log({ numeroRandom });
 const numeroSomma = numeroInput + numeroRandom;
 console.log({ numeroSomma });
 
-
 // Richiamo la funzione per stabilire se il numero è pari o dispari
-
 const pariDispari = pariDispariFunc(numeroSomma);
+
 // Dichiaro il vincitore
 if (sceltaInput === "pari" && pariDispari === true) {
     console.log("L'utente ha vinto");
