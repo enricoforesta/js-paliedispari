@@ -34,8 +34,6 @@ function parolaInvertita(parolaInput) {
 
 // Operazioni
 
-const parolaInput = 
-
-
+const parolaInput = prompt("inserisci una parola");
 
 parolaInvertita();
