@@ -1,21 +1,12 @@
 "use strict"
 // Funzione numero Random
 function numeroRandomFunc(num1 = 0, num2 = 0) {
-    const numeroCpu = Math.floor((Math.random() * num2) + num1);
-    return numeroCpu;
+    return Math.floor((Math.random() * (num2 - num1 + 1)) + num1);
 }
 
 // Funzione per stabilire se un numero è pari o dispari
 function pariDispariFunc(num1 = 0) {
-    if (num1 % 2 === 0) {
-        let pari = true;
-        console.log("Il numero è pari")
-        return pari;
-    } else {
-        let pari = false
-        console.log("Il numero è dispari")
-        return pari;
-    }
+    return num1 % 2 === 0 
 }
 /* ------------------------------------------------------- */
 
@@ -49,10 +40,9 @@ console.log({ numeroSomma });
 const pariDispari = pariDispariFunc(numeroSomma);
 
 // Dichiaro il vincitore
-if (sceltaInput === "pari" && pariDispari === true) {
+if (sceltaInput === "pari" && pariDispari === true, sceltaInput === "dispari" && pariDispari === false) {
     console.log("L'utente ha vinto");
-} else if (sceltaInput === "dispari" && pariDispari === false) {
-    console.log("L'utente ha vinto");
-} else {
+}
+else {
     console.log("La CPU ha vinto");
 }
